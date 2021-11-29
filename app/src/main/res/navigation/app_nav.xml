@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/fragment2">
+
+    <fragment
+        android:id="@+id/details_summary"
+        android:name="com.example.myapplication.ProductDetailsSummaryFragment"
+        android:label="ProductDetailsSummaryFragment" />
+    <fragment
+        android:id="@+id/tab_fiche"
+        android:name="com.example.myapplication.ProductDetailsFragment"
+        android:label="ProductDetailsFragment" />
+    <fragment
+        android:id="@+id/tab_nutrition"
+        android:name="com.example.myapplication.ProductsListFragment"
+        android:label="ProductsListFragment" />
+</navigation>

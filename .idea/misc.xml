@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/iness/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/iness/AndroidStudioProjects/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.115625" />
+        <entry key="..\:/Workspace/ANDROID/MyApplication2/app/src/main/res/drawable/degrade_tool_bar.xml" value="0.19074074074074074" />
+        <entry key="..\:/Workspace/ANDROID/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.11170212765957446" />
+        <entry key="..\:/Workspace/ANDROID/MyApplication2/app/src/main/res/layout/details_summary.xml" value="0.21331521739130435" />
+        <entry key="..\:/Workspace/ANDROID/MyApplication2/app/src/main/res/layout/fragment1.xml" value="0.11170212765957446" />
+        <entry key="..\:/Workspace/ANDROID/MyApplication2/app/src/main/res/layout/fragment2.xml" value="0.11170212765957446" />
+        <entry key="..\:/Workspace/ANDROID/MyApplication2/app/src/main/res/menu/product_details_tabs.xml" value="0.2296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

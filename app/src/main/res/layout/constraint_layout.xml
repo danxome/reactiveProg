@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/photo_plat"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <TextView
+        android:id="@+id/titre_petit_pois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/photo_plat"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+    />
+<!--        app:layout_constraintHorizontal_weight="1"-->
+
+    <TextView
+        android:id="@+id/cassegrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/titre_petit_pois"
+        />
+<!--        app:layout_constraintHorizontal_weight="1"-->
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="15dp"
+        />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/nutriscore_e"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintTop_toBottomOf="@+id/photo_plat" />
+
+    <TextView
+        android:id="@+id/codebarre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/cassegrain"
+        app:layout_constraintStart_toStartOf="@id/cassegrain"
+        />
+
+    <TextView
+        android:id="@+id/quantite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/codebarre"
+        app:layout_constraintStart_toStartOf="@id/codebarre"
+        />
+
+    <TextView
+        android:id="@+id/vendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/quantite"
+        app:layout_constraintStart_toStartOf="@id/quantite"
+        />
+
+    <TextView
+        android:id="@+id/ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/vendu"
+        app:layout_constraintStart_toStartOf="@id/vendu"
+        />
+
+    <TextView
+        android:id="@+id/substance_allergenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/ingredient"
+        app:layout_constraintStart_toStartOf="@id/ingredient"
+        />
+
+    <TextView
+        android:id="@+id/additifs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/substance_allergenes"
+        app:layout_constraintStart_toStartOf="@id/substance_allergenes"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
